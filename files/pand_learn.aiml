@@ -1,16 +1,16 @@
 <aiml version="2.0">
   <!-- Accueil -->
   <category>
-    <pattern>HELLO</pattern>
+    <pattern>Hello</pattern>
     <template>
       Hello! I'm SociEduBot, your guide in sociology of education. 
-      Would you like to learn the definition, main authors, or key concepts?
+      Would you like to learn the definition, main authors, or key concepts? Write Quizz to test your knoweledge.
     </template>
     </category>
 
   <!-- Définition -->
   <category>
-    <pattern>DEFINITION</pattern>
+    <pattern>What is the Sociology</pattern>
     <template>
       Sociology of education is the study of how society and education influence each other. 
       It explores how social class, gender, culture, and institutions affect learning.
@@ -19,7 +19,7 @@
 
   <!-- Auteurs principaux -->
   <category>
-    <pattern>MAIN AUTHORS</pattern>
+    <pattern>the authors</pattern>
     <template>
       Important authors include Emile Durkheim, Pierre Bourdieu, and Basil Bernstein. 
       Would you like me to tell you about Durkheim, Bourdieu, or Bernstein?
@@ -27,14 +27,14 @@
     </category>
     
     <category>
-    <pattern>DURKHEIM</pattern>
+    <pattern>Durkheim</pattern>
     <template>
       Durkheim saw education as a key institution for transmitting society’s values and social cohesion.
     </template>
   </category>
 
   <category>
-    <pattern>BOURDIEU</pattern>
+    <pattern>Bourdieu</pattern>
     <template>
       Bourdieu explained how schools reproduce social inequalities through cultural capital and habitus.
     </template>
@@ -42,10 +42,10 @@
 
   <!-- Quiz -->
   <category>
-    <pattern>QUIZ</pattern>
+    <pattern>Quizz</pattern>
     <template>
       Great! Let’s test your knowledge.  
-      Question 1: Who saw education as a way to maintain social order?  
+      Question 1: Who saw education as a way to maintain social order?  It's is...
       a) Bourdieu  
       b) Durkheim  
       c) Bernstein  
@@ -53,11 +53,12 @@
     </category>
 
   <category>
-    <pattern>DURKHEIM</pattern>
+    <pattern>It's is Durkheim</pattern>
     <template>
       ✅ Correct! Durkheim focused on education as a tool of social cohesion. 
       Do you want another question?
     </template>
   </category>
 </aiml>
+
 
