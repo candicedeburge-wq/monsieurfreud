@@ -1,0 +1,63 @@
+<aiml version="2.0">
+  <!-- Accueil -->
+  <category>
+    <pattern>HELLO</pattern>
+    <template>
+      Hello! I'm SociEduBot, your guide in sociology of education. 
+      Would you like to learn the definition, main authors, or key concepts?
+    </template>
+    </category>
+
+  <!-- Définition -->
+  <category>
+    <pattern>DEFINITION</pattern>
+    <template>
+      Sociology of education is the study of how society and education influence each other. 
+      It explores how social class, gender, culture, and institutions affect learning.
+    </template>
+  </category>
+
+  <!-- Auteurs principaux -->
+  <category>
+    <pattern>MAIN AUTHORS</pattern>
+    <template>
+      Important authors include Emile Durkheim, Pierre Bourdieu, and Basil Bernstein. 
+      Would you like me to tell you about Durkheim, Bourdieu, or Bernstein?
+    </template>
+    </category>
+    
+    <category>
+    <pattern>DURKHEIM</pattern>
+    <template>
+      Durkheim saw education as a key institution for transmitting society’s values and social cohesion.
+    </template>
+  </category>
+
+  <category>
+    <pattern>BOURDIEU</pattern>
+    <template>
+      Bourdieu explained how schools reproduce social inequalities through cultural capital and habitus.
+    </template>
+  </category>
+
+  <!-- Quiz -->
+  <category>
+    <pattern>QUIZ</pattern>
+    <template>
+      Great! Let’s test your knowledge.  
+      Question 1: Who saw education as a way to maintain social order?  
+      a) Bourdieu  
+      b) Durkheim  
+      c) Bernstein  
+    </template>
+    </category>
+
+  <category>
+    <pattern>DURKHEIM</pattern>
+    <template>
+      ✅ Correct! Durkheim focused on education as a tool of social cohesion. 
+      Do you want another question?
+    </template>
+  </category>
+</aiml>
+
